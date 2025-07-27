@@ -10,7 +10,7 @@ def get_data(path):
     return roles
 
 def filter_data(data_list):
-    removed_words = ['intern', 'summer', 'engineering', 'engineer']
+    removed_words = ['internship', 'intern', 'summer', 'engineering', 'engineer']
     filtered_list = []
 
     for data in data_list:
@@ -34,7 +34,7 @@ def make_cloud(data, save_dir):
     plt.title("Most frequently appearing words in intership roles")
 
     os.makedirs(save_dir, exist_ok=True)
-    file_path = os.path.join(save_dir, 'summer_2024_word_clound.png')
+    file_path = os.path.join(save_dir, 'summer_2024_word_cloud.png')
     plt.savefig(file_path)
     plt.show()
 
