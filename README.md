@@ -22,4 +22,4 @@ pip install -r requirements.txt
 ```
 
 ## Results
-![preview](https://github.com/SarthakStha/2024_internship_scrapper/blob/main/visuals/summer_2024_word_clound.png)
+![preview](https://github.com/SarthakStha/2024_internship_scrapper/blob/main/visuals/summer_2024_word_cloud.png)
